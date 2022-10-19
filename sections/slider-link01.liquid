@@ -1,23 +1,28 @@
 
-{% if section.settings.enabletext %}
-<div>{{ section.settings.textid }}</div>
+{% if section.settings.myimage %}
+<div>
+  <img src="{{ section.settings.myimage | img_url: "600x"}}" />
+  </div>
 {% endif %}
 {% schema %}
   {
-    "name": "custom Page Text",
+    "name": "Section",
    "settings": [
           {
-            "type": "text",
-            "id": "textid",
-            "default": "Quick links",
-            "label": "hannan is here"
-          }, {
             "type": "checkbox",
-            "id": "enabletext",
-            "label": "Enable your text",
-            "default": true
-            
-          }
+            "id": "view_text",
+            "default": false,
+            "label": "Enable Text"
+          }, {
+            "type": "text",
+            "id": "custom_text",
+            "label": "Enable your text"            
+          },
+     {
+       "type": "image_picker",
+       "id": "myimage",
+       "label":"select image"
+     }
         ]
   }
 {% endschema %}
