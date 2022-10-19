@@ -6,6 +6,7 @@
         "template--15725401604153__2fbfc915-a4c7-4abb-9c84-8e034c152ae1-1666185818a45c3117-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner01.webp",
             "heading": "Design your dream kitchen with our kitchen appliance package design tool",
             "heading_size": "h1",
             "subheading": "Pick your Bosch kitchen appliances and customize your kitchen suite!",
@@ -23,10 +24,11 @@
         "template--15725401604153__2fbfc915-a4c7-4abb-9c84-8e034c152ae1-1666185818a45c3117-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/banner02.webp",
+            "heading": "Find the perfect kitchen appliances for your home with the Bosch Virtual Kitchen.",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Discover professional appliance buying tips from Chef Curtis Stone and the latest innovations in refrigerators, wall ovens and more.",
+            "button_label": "Learn More",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
