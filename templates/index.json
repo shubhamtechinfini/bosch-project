@@ -253,6 +253,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0534abf7-c764-4221-9e2b-eb38d22fd686": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15725401604153__0534abf7-c764-4221-9e2b-eb38d22fd686-1666185817b8286769-0": {
+          "type": "column",
+          "settings": {
+            "title": "MyBosch",
+            "text": "<p>Register for free and enjoy many benefits!<\/p>",
+            "link_label": "Register now",
+            "link": ""
+          }
+        },
+        "771e4cb1-3e56-4355-92af-71cec4478654": {
+          "type": "column",
+          "settings": {
+            "title": "Our Service",
+            "text": "<p>Outstanding service – before and after the purchase.<\/p>",
+            "link_label": "Experience service",
+            "link": ""
+          }
+        },
+        "template--15725401604153__0534abf7-c764-4221-9e2b-eb38d22fd686-1666185817b8286769-1": {
+          "type": "column",
+          "settings": {
+            "title": "Owner Manuals",
+            "text": "<p>Owner manuals provide valuable information on how to use your appliance.<\/p>",
+            "link_label": "Search now",
+            "link": ""
+          }
+        },
+        "template--15725401604153__0534abf7-c764-4221-9e2b-eb38d22fd686-1666185817b8286769-2": {
+          "type": "column",
+          "settings": {
+            "title": "Visit our Showroom",
+            "text": "<p>Schedule a visit to BSH Experience & Design Center. Test drive various Bosch appliances, get one-on-one feedback from our experts, and leave with a list of your favorite products.<\/p>",
+            "link_label": "Schedule a visit",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15725401604153__0534abf7-c764-4221-9e2b-eb38d22fd686-1666185817b8286769-0",
+        "771e4cb1-3e56-4355-92af-71cec4478654",
+        "template--15725401604153__0534abf7-c764-4221-9e2b-eb38d22fd686-1666185817b8286769-1",
+        "template--15725401604153__0534abf7-c764-4221-9e2b-eb38d22fd686-1666185817b8286769-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -260,6 +323,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "0534abf7-c764-4221-9e2b-eb38d22fd686"
   ]
 }
