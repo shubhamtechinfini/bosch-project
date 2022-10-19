@@ -161,56 +161,56 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Owner Support",
               "menu": "footer"
             }
           },
           "fb714700-7fc0-41de-825e-7d4b23545be8": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Experience Bosch",
               "menu": "footer"
             }
           },
           "0794d225-7a46-40db-9559-7b15677813cf": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Refrigerators",
               "menu": "footer"
             }
           },
           "81319699-a90b-42da-8d8d-2969b4d34909": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Dishwashers",
               "menu": "footer"
             }
           },
           "3b227236-a9a8-49f4-a79f-5ef0d93bef07": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Cooktops",
               "menu": "footer"
             }
           },
           "faee115e-da1d-450e-a73e-36e65ac097ce": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Ovens",
               "menu": "footer"
             }
           },
           "1882e675-f594-40f8-9884-2f8b5273ef27": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Laundry",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
+              "heading": "Ranges",
               "menu": "footer"
             }
           }
