@@ -59,6 +59,49 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "549ab550-cdf2-46e4-8ef0-991442590047": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bosch Water Filters",
+            "heading_size": "h1"
+          }
+        },
+        "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t know which water filter to use with your Bosch refrigerator?<\/p><p><\/p><p>Visit our filter finder <a href=\"https:\/\/waterfilterfinder.boschappliances.com\/\" target=\"_blank\">here<\/a> where you can search by entering your refrigerator model number.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop water filters",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-0",
+        "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-1",
+        "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e247011a-00db-4c23-a889-861bf64efdb6": {
       "type": "image-with-text",
       "blocks": {
@@ -258,6 +301,7 @@
   "order": [
     "main",
     "4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3",
+    "549ab550-cdf2-46e4-8ef0-991442590047",
     "e247011a-00db-4c23-a889-861bf64efdb6",
     "8884e340-cb32-445e-94e1-61e8ebd54db1",
     "7c1c62b6-c778-41cb-ac05-47ed8ca04f6f",
