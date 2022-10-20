@@ -1,5 +1,140 @@
 {
   "sections": {
+    "03afcb79-7abf-41e3-810f-29181ea72133": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15725771817017__03afcb79-7abf-41e3-810f-29181ea72133-1666261284874d594b-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--15725771817017__03afcb79-7abf-41e3-810f-29181ea72133-1666261284874d594b-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15725771817017__03afcb79-7abf-41e3-810f-29181ea72133-1666261284874d594b-0",
+        "template--15725771817017__03afcb79-7abf-41e3-810f-29181ea72133-1666261284874d594b-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "62059722-ecc5-49ce-8fb2-38bd36b4e73a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15725771817017__62059722-ecc5-49ce-8fb2-38bd36b4e73a-166626128493693d84-0": {
+          "type": "column",
+          "settings": {
+            "title": "Appliance Quick Start Guides",
+            "text": "<p>Just installed your Bosch appliance? Download one of our quick start guides to help you get started with our most useful tips and tricks. From dishwasher loading tips and most commonly used cycles to laundry detergent and maintenance advice, we’ve got you covered.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d12a7c6b-e840-4287-b79f-6cda38f39311": {
+          "type": "column",
+          "settings": {
+            "title": "How-To Videos",
+            "text": "<p>Make the most of your Bosch appliance. From cleaning and care advice to dishwasher loading tips, we’ve got you covered with our how-to videos.<\/p>",
+            "link_label": "Watch now",
+            "link": ""
+          }
+        },
+        "template--15725771817017__62059722-ecc5-49ce-8fb2-38bd36b4e73a-166626128493693d84-1": {
+          "type": "column",
+          "settings": {
+            "title": "Bosch technicians care.",
+            "text": "<p>Bosch technicians and our authorized service providers provide friendly, efficient service while answering use and care questions and providing expert advice. They’re thoroughly trained on Bosch engineering and how to provide a premium service experience.<\/p><p>Quickly book a repair visit online to fit your schedule and needs (for major metropolitan areas).<\/p>",
+            "link_label": "Find a Servicer",
+            "link": ""
+          }
+        },
+        "9acb444a-14b3-4f85-888d-e3eaa9114996": {
+          "type": "column",
+          "settings": {
+            "title": "Registration Perks",
+            "text": "<p>Register your appliance to receive a discount in the Bosch accessories store, up-to-date product information, and appliance usage tips. It's easy - simply create a MyBosch account, then add your appliances.<\/p>",
+            "link_label": "Register Now",
+            "link": ""
+          }
+        },
+        "9de25ff2-fc80-4807-8865-6c63907b2c85": {
+          "type": "column",
+          "settings": {
+            "title": "Purchase Additional Warranty Coverage",
+            "text": "<p>Precise performance and modern design were top of mind when you purchased Bosch. Keep that spirit alive with the Bosch Appliance Service Plan, which provides coverage after the initial product warranty expires.<\/p><p>To learn more, simply register your appliance to receive a customized offer letter by mail for the Bosch Appliance Service Plan.<\/p>",
+            "link_label": "Register Now",
+            "link": ""
+          }
+        },
+        "template--15725771817017__62059722-ecc5-49ce-8fb2-38bd36b4e73a-166626128493693d84-2": {
+          "type": "column",
+          "settings": {
+            "title": "Connected Appliances",
+            "text": "<p>We’re here for you whether you need help pairing your appliance with the Home Connect app, creating an account, or diagnosing an issue.<\/p><p>Just call us for assistance or visit the Home Connect site for set up instructions: <strong>1-800-944-2904<\/strong><\/p>",
+            "link_label": "Home Connect",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15725771817017__62059722-ecc5-49ce-8fb2-38bd36b4e73a-166626128493693d84-0",
+        "d12a7c6b-e840-4287-b79f-6cda38f39311",
+        "template--15725771817017__62059722-ecc5-49ce-8fb2-38bd36b4e73a-166626128493693d84-1",
+        "9acb444a-14b3-4f85-888d-e3eaa9114996",
+        "9de25ff2-fc80-4807-8865-6c63907b2c85",
+        "template--15725771817017__62059722-ecc5-49ce-8fb2-38bd36b4e73a-166626128493693d84-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +144,8 @@
     }
   },
   "order": [
+    "03afcb79-7abf-41e3-810f-29181ea72133",
+    "62059722-ecc5-49ce-8fb2-38bd36b4e73a",
     "main"
   ]
 }
