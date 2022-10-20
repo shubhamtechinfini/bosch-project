@@ -108,21 +108,21 @@
         "template--15725401833529__8884e340-cb32-445e-94e1-61e8ebd54db1-1666247573a9cd2df4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Bosch Charcoal Filters for Ventilation",
             "heading_size": "h1"
           }
         },
         "template--15725401833529__8884e340-cb32-445e-94e1-61e8ebd54db1-1666247573a9cd2df4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>If your Bosch ventilation uses a recirculation module, change the charcoal filter a few times a year, depending on usage. Charcoal filters absorb odors that are recirculated in the air and changing them will help keep your kitchen smelling fresh and odor free.<\/p>",
             "text_style": "body"
           }
         },
         "template--15725401833529__8884e340-cb32-445e-94e1-61e8ebd54db1-1666247573a9cd2df4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop charcoal filters",
             "button_link": ""
           }
         }
@@ -133,9 +133,10 @@
         "template--15725401833529__8884e340-cb32-445e-94e1-61e8ebd54db1-1666247573a9cd2df4-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/feature-image01.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -151,21 +152,21 @@
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Baking Versatility Mixed Right In",
             "heading_size": "h1"
           }
         },
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Powerful, versatile, and stylish, the Bosch mixer is a kitchen staple for bakers and cooks.<\/p>",
             "text_style": "body"
           }
         },
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop now",
             "button_link": ""
           }
         }
@@ -176,6 +177,7 @@
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/feature-image.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
