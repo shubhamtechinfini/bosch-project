@@ -90,6 +90,7 @@
         "template--15725401833529__549ab550-cdf2-46e4-8ef0-991442590047-1666247776a4a88359-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/feature.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
