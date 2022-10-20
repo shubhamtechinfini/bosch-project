@@ -7,98 +7,6 @@
         "padding_bottom": 28
       }
     },
-    "4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15725401833529__4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3-1666247574bb555180-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner02_0c94e32d-0dca-47ad-85ba-2ab9c98926a3.webp",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15725401833529__4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3-1666247574bb555180-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner02_0c94e32d-0dca-47ad-85ba-2ab9c98926a3.webp",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "e021e1b6-d246-4be3-887e-beeff9bd39ea": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner03.webp",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "ff8a7a8a-f077-4f5a-a698-557e3284a44b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner04.webp",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15725401833529__4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3-1666247574bb555180-0",
-        "template--15725401833529__4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3-1666247574bb555180-1",
-        "e021e1b6-d246-4be3-887e-beeff9bd39ea",
-        "ff8a7a8a-f077-4f5a-a698-557e3284a44b"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "549ab550-cdf2-46e4-8ef0-991442590047": {
       "type": "image-with-text",
       "blocks": {
@@ -341,7 +249,6 @@
   },
   "order": [
     "main",
-    "4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3",
     "549ab550-cdf2-46e4-8ef0-991442590047",
     "e247011a-00db-4c23-a889-861bf64efdb6",
     "8884e340-cb32-445e-94e1-61e8ebd54db1",
