@@ -67,6 +67,7 @@
         "ff8a7a8a-f077-4f5a-a698-557e3284a44b": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner04.webp",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
