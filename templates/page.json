@@ -187,6 +187,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b705368c-7423-4c99-8602-1e035a5f2ba6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-0": {
+          "type": "column",
+          "settings": {
+            "title": "MyBosch",
+            "text": "<p>Register for free and enjoy many benefits!<\/p>",
+            "link_label": "Register now",
+            "link": ""
+          }
+        },
+        "920dc8cf-6a72-469e-b041-898c4606096f": {
+          "type": "column",
+          "settings": {
+            "title": "Our Service",
+            "text": "<p>Outstanding service – before and after the purchase.<\/p>",
+            "link_label": "Experience service",
+            "link": ""
+          }
+        },
+        "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-1": {
+          "type": "column",
+          "settings": {
+            "title": "Experience Bosch",
+            "text": "<p>Discover quality, perfection, and reliability.<\/p>",
+            "link_label": "Subscribe now",
+            "link": ""
+          }
+        },
+        "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-2": {
+          "type": "column",
+          "settings": {
+            "title": "Store FAQs",
+            "text": "<p>Review store policies and return processes for the Bosch Accessories Store.<\/p>",
+            "link_label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-0",
+        "920dc8cf-6a72-469e-b041-898c4606096f",
+        "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-1",
+        "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -194,6 +257,7 @@
     "4cd51ea9-4a74-49ab-9bdb-55eb2fe26dd3",
     "e247011a-00db-4c23-a889-861bf64efdb6",
     "8884e340-cb32-445e-94e1-61e8ebd54db1",
-    "7c1c62b6-c778-41cb-ac05-47ed8ca04f6f"
+    "7c1c62b6-c778-41cb-ac05-47ed8ca04f6f",
+    "b705368c-7423-4c99-8602-1e035a5f2ba6"
   ]
 }
