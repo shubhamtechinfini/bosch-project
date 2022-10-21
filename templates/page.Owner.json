@@ -146,21 +146,21 @@
         "template--15725401833529__e247011a-00db-4c23-a889-861bf64efdb6-1666247573a9cd2df4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Bosch Cleaners & Descalers",
+            "heading": "Registration Perks",
             "heading_size": "h1"
           }
         },
         "template--15725401833529__e247011a-00db-4c23-a889-861bf64efdb6-1666247573a9cd2df4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The right cleaning and care products are essential.<\/p><p><\/p><p>Our cleaners and descalers help maintain your appliance for optimal performance.<\/p>",
+            "text": "<p>Register your appliance to receive a discount in the Bosch accessories store, up-to-date product information, and appliance usage tips. It's easy - simply create a MyBosch account, then add your appliances.<\/p>",
             "text_style": "body"
           }
         },
         "template--15725401833529__e247011a-00db-4c23-a889-861bf64efdb6-1666247573a9cd2df4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
+            "button_label": "Register Now",
             "button_link": ""
           }
         }
