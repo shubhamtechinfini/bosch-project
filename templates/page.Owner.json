@@ -171,7 +171,7 @@
         "template--15725401833529__e247011a-00db-4c23-a889-861bf64efdb6-1666247573a9cd2df4-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/feature-image02.webp",
+        "image": "shopify:\/\/shop_images\/sideimg.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -215,10 +215,10 @@
         "template--15725401833529__8884e340-cb32-445e-94e1-61e8ebd54db1-1666247573a9cd2df4-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/feature-image01.webp",
+        "image": "shopify:\/\/shop_images\/sideimg01.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -234,21 +234,21 @@
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Baking Versatility Mixed Right In",
+            "heading": "Questions or suggestions? We’re happy to help!",
             "heading_size": "h1"
           }
         },
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Powerful, versatile, and stylish, the Bosch mixer is a kitchen staple for bakers and cooks.<\/p>",
+            "text": "<p>Whether you need product advice, want to purchase accessories or simply want to give feedback – we’re here for you.<\/p><p><strong>1-800-944-2904<\/strong><\/p><p>Text “<strong>SUPPORT<\/strong>” to 21432 for quick access to online resources such as owner manuals, servicer finder, FAQs, how-to videos, warranties, parts & accessories search.<\/p>",
             "text_style": "body"
           }
         },
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Contact US",
             "button_link": ""
           }
         }
@@ -259,10 +259,10 @@
         "template--15725401833529__7c1c62b6-c778-41cb-ac05-47ed8ca04f6f-1666247573a9cd2df4-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/feature-image.webp",
+        "image": "shopify:\/\/shop_images\/sideimg02.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
