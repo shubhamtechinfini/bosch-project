@@ -57,8 +57,8 @@
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Appliance Quick Start Guides",
+            "text": "<p>Just installed your Bosch appliance? Download one of our quick start guides to help you get started with our most useful tips and tricks. From dishwasher loading tips and most commonly used cycles to laundry detergent and maintenance advice, we’ve got you covered.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -66,8 +66,9 @@
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/img02.webp",
+            "title": "How-To Videos",
+            "text": "<p>Make the most of your Bosch appliance. From cleaning and care advice to dishwasher loading tips, we’ve got you covered with our how-to videos.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -75,8 +76,38 @@
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Bosch technicians care.",
+            "text": "<p>Bosch technicians and our authorized service providers provide friendly, efficient service while answering use and care questions and providing expert advice. They’re thoroughly trained on Bosch engineering and how to provide a premium service experience.<\/p><p>Quickly book a repair visit online to fit your schedule and needs (for major metropolitan areas).<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a324df8d-c02a-4b63-85bb-b3228da6294f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img04.webp",
+            "title": "Registration Perks",
+            "text": "<p>Register your appliance to receive a discount in the Bosch accessories store, up-to-date product information, and appliance usage tips. It's easy - simply create a MyBosch account, then add your appliances.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "19cc719f-87f6-455f-990b-afce2b874d4c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img05.webp",
+            "title": "Purchase Additional Warranty Coverage",
+            "text": "<p>Precise performance and modern design were top of mind when you purchased Bosch. Keep that spirit alive with the Bosch Appliance Service Plan, which provides coverage after the initial product warranty expires.<\/p><p>To learn more, simply register your appliance to receive a customized offer letter by mail for the Bosch Appliance Service Plan.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9fc71ccf-9aa6-473d-807f-a75b48595863": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img06.webp",
+            "title": "Connected Appliances",
+            "text": "<p>We’re here for you whether you need help pairing your appliance with the Home Connect app, creating an account, or diagnosing an issue.<\/p><p>Just call us for assistance or visit the Home Connect site for set up instructions: <strong>1-800-944-2904<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -85,17 +116,20 @@
       "block_order": [
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-0",
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-1",
-        "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-2"
+        "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-2",
+        "a324df8d-c02a-4b63-85bb-b3228da6294f",
+        "19cc719f-87f6-455f-990b-afce2b874d4c",
+        "9fc71ccf-9aa6-473d-807f-a75b48595863"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
