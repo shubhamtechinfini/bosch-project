@@ -282,6 +282,7 @@
         "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon03.webp",
             "title": "Owner Manuals",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -291,6 +292,7 @@
         "8193a421-14df-4a5e-aa8e-8542867243f5": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon04.webp",
             "title": "Write a review",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -300,6 +302,7 @@
         "365a3d10-52d3-4113-9de1-798bc858511c": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon05.webp",
             "title": "Newsletter",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -309,6 +312,7 @@
         "e4edac9e-8bca-4ec3-9750-e36d0af3fc9a": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon06.webp",
             "title": "MyBosch",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -318,6 +322,7 @@
         "a928cce2-3d7e-448d-a65b-a57ba52bded6": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon07.webp",
             "title": "Safety Notices",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -327,6 +332,7 @@
         "8c2ac0b0-5ada-4129-ae2a-87f710cfd527": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/icon08.webp",
             "title": "Contact Us",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
