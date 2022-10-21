@@ -271,27 +271,27 @@
         "920dc8cf-6a72-469e-b041-898c4606096f": {
           "type": "column",
           "settings": {
-            "title": "Our Service",
-            "text": "<p>Outstanding service – before and after the purchase.<\/p>",
-            "link_label": "Experience service",
+            "title": "Write a review",
+            "text": "<p>How’s your new Bosch treating you? We’d love to hear your feedback.<\/p>",
+            "link_label": "Review Now",
             "link": ""
           }
         },
         "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-1": {
           "type": "column",
           "settings": {
-            "title": "Experience Bosch",
-            "text": "<p>Discover quality, perfection, and reliability.<\/p>",
-            "link_label": "Subscribe now",
+            "title": "Accessories",
+            "text": "<p>Enhance the use of your appliance with exclusive Bosch cleaners and accessories made specifically for your appliance.<\/p>",
+            "link_label": "Shop now",
             "link": ""
           }
         },
         "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-2": {
           "type": "column",
           "settings": {
-            "title": "Store FAQs",
-            "text": "<p>Review store policies and return processes for the Bosch Accessories Store.<\/p>",
-            "link_label": "Learn more",
+            "title": "Newsletter",
+            "text": "<p>Our newsletters provide handy use and care tips, our latest offers, accessory discounts and more.<\/p>",
+            "link_label": "Subscribe now",
             "link": ""
           }
         }
