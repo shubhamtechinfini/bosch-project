@@ -262,8 +262,8 @@
         "template--15725401833529__b705368c-7423-4c99-8602-1e035a5f2ba6-1666247776c7193616-0": {
           "type": "column",
           "settings": {
-            "title": "MyBosch",
-            "text": "<p>Register for free and enjoy many benefits!<\/p>",
+            "title": "Product Registration",
+            "text": "<p>Register your appliance today and receive an offer to purchase the Bosch Appliance Service Plan.<\/p>",
             "link_label": "Register now",
             "link": ""
           }
