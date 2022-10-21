@@ -57,6 +57,7 @@
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/img01.webp",
             "title": "Appliance Quick Start Guides",
             "text": "<p>Just installed your Bosch appliance? Download one of our quick start guides to help you get started with our most useful tips and tricks. From dishwasher loading tips and most commonly used cycles to laundry detergent and maintenance advice, we’ve got you covered.<\/p>",
             "link_label": "",
@@ -76,6 +77,7 @@
         "template--15727354282041__88b45395-6319-48d3-8db1-7946f44734a5-1666343262e8a1c9fa-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/img03.webp",
             "title": "Bosch technicians care.",
             "text": "<p>Bosch technicians and our authorized service providers provide friendly, efficient service while answering use and care questions and providing expert advice. They’re thoroughly trained on Bosch engineering and how to provide a premium service experience.<\/p><p>Quickly book a repair visit online to fit your schedule and needs (for major metropolitan areas).<\/p>",
             "link_label": "",
