@@ -256,6 +256,111 @@
         "padding_bottom": 36
       }
     },
+    "fe9df444-455b-42a4-b385-96b2498cb6e3": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon01.webp",
+            "title": "Accessories",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon02.webp",
+            "title": "Warranties",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-2": {
+          "type": "column",
+          "settings": {
+            "title": "Owner Manuals",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8193a421-14df-4a5e-aa8e-8542867243f5": {
+          "type": "column",
+          "settings": {
+            "title": "Write a review",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "365a3d10-52d3-4113-9de1-798bc858511c": {
+          "type": "column",
+          "settings": {
+            "title": "Newsletter",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e4edac9e-8bca-4ec3-9750-e36d0af3fc9a": {
+          "type": "column",
+          "settings": {
+            "title": "MyBosch",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a928cce2-3d7e-448d-a65b-a57ba52bded6": {
+          "type": "column",
+          "settings": {
+            "title": "Safety Notices",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8c2ac0b0-5ada-4129-ae2a-87f710cfd527": {
+          "type": "column",
+          "settings": {
+            "title": "Contact Us",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-0",
+        "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-1",
+        "template--15727354282041__fe9df444-455b-42a4-b385-96b2498cb6e3-1666343262e8a1c9fa-2",
+        "8193a421-14df-4a5e-aa8e-8542867243f5",
+        "365a3d10-52d3-4113-9de1-798bc858511c",
+        "e4edac9e-8bca-4ec3-9750-e36d0af3fc9a",
+        "a928cce2-3d7e-448d-a65b-a57ba52bded6",
+        "8c2ac0b0-5ada-4129-ae2a-87f710cfd527"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b705368c-7423-4c99-8602-1e035a5f2ba6": {
       "type": "multicolumn",
       "blocks": {
@@ -327,6 +432,7 @@
     "e247011a-00db-4c23-a889-861bf64efdb6",
     "8884e340-cb32-445e-94e1-61e8ebd54db1",
     "7c1c62b6-c778-41cb-ac05-47ed8ca04f6f",
+    "fe9df444-455b-42a4-b385-96b2498cb6e3",
     "b705368c-7423-4c99-8602-1e035a5f2ba6"
   ]
 }
