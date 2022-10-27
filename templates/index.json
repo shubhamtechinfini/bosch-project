@@ -294,6 +294,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "22d3b312-9058-44f9-986a-f2ea60d9f6a6": {
+      "type": "header-top",
+      "settings": {
+        "imageid": "shopify:\/\/shop_images\/sideimg02.webp",
+        "textid": "here",
+        "enabletext": true,
+        "text_position": "left"
+      }
     }
   },
   "order": [
@@ -301,6 +310,7 @@
     "5daf4fdf-701f-4d95-bd12-823af0014ac6",
     "rich_text",
     "multicolumn",
-    "0534abf7-c764-4221-9e2b-eb38d22fd686"
+    "0534abf7-c764-4221-9e2b-eb38d22fd686",
+    "22d3b312-9058-44f9-986a-f2ea60d9f6a6"
   ]
 }
