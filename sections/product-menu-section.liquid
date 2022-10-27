@@ -1,0 +1,59 @@
+{% stylesheet %}
+  .header-top{display:flex; max-width: var(--page-width); margin: 0 auto; padding: 10px 52px 0px 52px;}
+  .header-top .logo, .header-top .header-text-tag{width:50%; font-weight:bold;}
+{% endstylesheet %}
+
+
+<div class="header-top">
+    {% if section.settings.imageid %}
+<div class="logo">
+  {{ section.settings.imageid  | image_url: width: 90 | image_tag }}
+</div>
+{% endif %}
+  {% if section.settings.enabletext %}
+  <div class="header-text-tag" style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</div>
+  {% endif %}
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "header top",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id": "imageid",
+        "label":"Logo"
+      },
+      {
+        "type":"text",
+        "id": "textid",
+        "label":"Enter Text",
+        "default":"Home Appliances"
+      },
+      {
+        "type":"checkbox",
+        "id": "enabletext",
+        "label":"Enable your text",
+        "default":true
+      },
+      {
+        "type": "select",
+        "id": "text_position",
+        "label": "Position your text",
+        "options":[
+          {"value": "left", "label": "Left"},
+          {"value": "center", "label": "center"},
+          {"value": "right", "label": "right"}
+        ],
+        "default": "right"
+      }
+    ]    
+  }
+{% endschema %}
+
+
+
+{% javascript %}
+{% endjavascript %}
