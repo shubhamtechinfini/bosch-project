@@ -301,7 +301,7 @@
         "imageid": "shopify:\/\/shop_images\/logo.png",
         "textid": "Home Appliances",
         "enabletext": true,
-        "text_position": "left"
+        "text_position": "right"
       }
     }
   },
