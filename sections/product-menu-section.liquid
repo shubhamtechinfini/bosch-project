@@ -16,6 +16,33 @@
   <p class="header-text-tag" style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</p>
   {% endif %}
   {% if section.settings.menu %}
+    <ul class="menu">
+  {% for link in section.settings.menu.links %}
+    <li class="menu-link">
+      <a href="{{ link.url }}">{{ link.title }}</a>
+
+      {% if link.links.size > 0 %}
+        <ul class="menu dropdown-child">
+          {% for child_link in link.links %}
+            <li class="menu-link">
+              <a href="{{ child_link.url }}">{{ child_link.title }}</a>
+
+              {% if child_link.links.size > 0 %}
+                <ul class="menu dropdown-grandchild">
+                  {% for grandchild_link in child_link.links %}
+                    <li class="menu-link">
+                      <a href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
     <ul>
       <li>{{ section.settings.menu }}</li>
     </ul>
