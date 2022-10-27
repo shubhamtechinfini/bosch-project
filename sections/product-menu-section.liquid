@@ -9,10 +9,14 @@
   {{ section.settings.imageid  | image_url: width: 90 | image_tag }}
 {% endif %}
   </div>
+  <div class="menuTitle">
+
+    
+  </div>
 <div class="menus-list-items">
   {% if section.settings.menu %}
     <ul class="menu">
-      <p>{{ section.settings.menu }}</p>
+   
   {% for link in section.settings.menu.links %}
     <li class="menu-link">
       <a href="{{ link.url }}">{{ link.title }}</a>
