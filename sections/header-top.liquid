@@ -2,11 +2,22 @@
 
 {% if section.settings.enabletext %}
   <div style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</div>
+  
+{% endif %}
+{% if section.settings.enableimage %}}
+<div>
+  {{ section.settings.imageid }}
+</div>
 {% endif %}
 {% schema %}
   {
     "name": "headet top",
     "settings": [
+      {
+        "type":"image_picker",
+        "id": "imageid",
+        "label":"Logo"
+      },
       {
         "type":"text",
         "id": "textid",
