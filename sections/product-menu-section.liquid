@@ -15,6 +15,11 @@
  {% if section.settings.enabletext %}
   <p class="header-text-tag" style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</p>
   {% endif %}
+  {% if section.settings.menu %}
+    <ul>
+      <li>{{ section.settings.menu }}</li>
+    </ul>
+      {% endif %}
 </div>
 
 
