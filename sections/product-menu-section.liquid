@@ -8,9 +8,11 @@
  
 </div>
 <div>
+  <div>
   {% if section.settings.imageid %}
   {{ section.settings.imageid  | image_url: width: 90 | image_tag }}
 {% endif %}
+  </div>
 
   {% if section.settings.menu %}
     <ul class="menu">
