@@ -297,6 +297,7 @@
     },
     "39abdffc-368f-4db6-9ae0-9b061bfa9c79": {
       "type": "header-top",
+      "disabled": true,
       "settings": {
         "imageid": "shopify:\/\/shop_images\/logo.png",
         "textid": "Home Appliances",
