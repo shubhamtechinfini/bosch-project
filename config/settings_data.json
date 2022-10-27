@@ -251,6 +251,15 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "header-top": {
+        "type": "header-top",
+        "settings": {
+          "imageid": "shopify:\/\/shop_images\/logo.png",
+          "textid": "Home Appliances",
+          "enabletext": true,
+          "text_position": "right"
+        }
       }
     },
     "content_for_index": [
