@@ -304,6 +304,16 @@
         "enabletext": true,
         "text_position": "right"
       }
+    },
+    "43c82fee-70de-4f65-a42c-121c8993a70e": {
+      "type": "product-menu-section",
+      "settings": {
+        "imageid": "shopify:\/\/shop_images\/img01.webp",
+        "menu": "experience-footer",
+        "textid": "Home Appliances",
+        "enabletext": true,
+        "text_position": "right"
+      }
     }
   },
   "order": [
@@ -312,6 +322,7 @@
     "rich_text",
     "1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca",
     "0534abf7-c764-4221-9e2b-eb38d22fd686",
-    "39abdffc-368f-4db6-9ae0-9b061bfa9c79"
+    "39abdffc-368f-4db6-9ae0-9b061bfa9c79",
+    "43c82fee-70de-4f65-a42c-121c8993a70e"
   ]
 }
