@@ -2,6 +2,19 @@
   .header-top{display:flex; max-width: var(--page-width); margin: 0 auto; padding: 10px 52px 0px 52px;}
   .header-top .logo, .header-top .header-text-tag{width:50%; font-weight:bold;}
 {% endstylesheet %}
+
+
+<div class="header-top">
+    {% if section.settings.imageid %}
+<div class="logo">
+  {{ section.settings.imageid  | image_url: width: 90 | image_tag }}
+</div>
+{% endif %}
+  {% if section.settings.enabletext %}
+  <div class="header-text-tag" style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</div>
+  {% endif %}
+</div>
+
 <ul class="menu">
   {% for link in section.settings.menu.links %}
     <li class="menu-link">
@@ -29,19 +42,6 @@
     </li>
   {% endfor %}
 </ul>
-
-<div class="header-top">
-    {% if section.settings.imageid %}
-<div class="logo">
-  {{ section.settings.imageid  | image_url: width: 90 | image_tag }}
-</div>
-{% endif %}
-  {% if section.settings.enabletext %}
-  <div class="header-text-tag" style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</div>
-  {% endif %}
-</div>
-
-
 
 {% schema %}
   {
