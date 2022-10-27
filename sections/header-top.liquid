@@ -1,7 +1,40 @@
+{% if section.settings.enabletext %}
+  <div style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</div>
+{% endif %}
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "headet top",
+    "settings": [
+      {
+        "type":"text",
+        "id": "textid",
+        "label":"Enter Text",
+        "default":"here"
+      },
+      {
+        "type":"checkbox",
+        "id": "enabletext",
+        "label":"Enable your text",
+        "default":true
+      },
+      {
+        "type": "select",
+        "id": "text_position",
+        "label": "Position your text",
+        "options":[
+          {"value": "left", "label": "Left"},
+          {"value": "center", "label": "center"},
+          {"value": "right", "label": "right"}
+        ],
+        "default": "left"
+      }
+    ],
+    "presets":[
+      {
+      "name": "My custom Text",
+      "category": "text"
+      }
+    ]
   }
 {% endschema %}
 
