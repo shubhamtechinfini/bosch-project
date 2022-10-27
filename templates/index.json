@@ -232,6 +232,110 @@
         "padding_bottom": 36
       }
     },
+    "1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15725401604153__1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca-16668548601ee1954a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog01.webp",
+            "title": "Bosch in every detail.",
+            "text": "<p>At Bosch, we make products that are invented for life. With an enduring commitment to quality and design, our products allow you to savor every detail.<\/p>",
+            "link_label": "About Bosch",
+            "link": ""
+          }
+        },
+        "template--15725401604153__1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca-16668548601ee1954a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Plan your kitchen remodel.",
+            "text": "<p>Let Bosch help you plan your next kitchen remodel. From design inspiration to selecting the best appliances, we're here to help.<\/p>",
+            "link_label": "Get started",
+            "link": ""
+          }
+        },
+        "template--15725401604153__1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca-16668548601ee1954a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Write A Review",
+            "text": "<p>Help shoppers in their purchase decision by sharing your thoughts on your Bosch appliance!<\/p>",
+            "link_label": "Write a review",
+            "link": ""
+          }
+        },
+        "3e94a468-a427-4bef-a1af-b070814547c7": {
+          "type": "column",
+          "settings": {
+            "title": "Kitchen Package Builder",
+            "text": "<p>Pick your appliances and customize your kitchen with our virtual tool.<\/p>",
+            "link_label": "Get started",
+            "link": ""
+          }
+        },
+        "ecf7aba2-7ad6-4905-a3d3-a4db442d052e": {
+          "type": "column",
+          "settings": {
+            "title": "Heart of the Home blog.",
+            "text": "<p>Whether it’s tips to simplify life in the kitchen, a delicious recipe, or kitchen design inspiration, we've got a lot to share.<\/p>",
+            "link_label": "Learn more",
+            "link": ""
+          }
+        },
+        "7d04227c-900c-445b-ad68-3462d6c7f337": {
+          "type": "column",
+          "settings": {
+            "title": "Owner Support",
+            "text": "<p>Get troubleshooting help, shop filters, and more.<\/p>",
+            "link_label": "Get Support",
+            "link": ""
+          }
+        },
+        "d4d85d51-96f5-4c5b-8329-58b8778654b5": {
+          "type": "column",
+          "settings": {
+            "title": "Awards & Accolades",
+            "text": "<p>Our award-winning products reward customers daily with their dependability, efficiency and ease-of-use.<\/p>",
+            "link_label": "View Awards",
+            "link": ""
+          }
+        },
+        "d107ab03-4268-4ced-90aa-b4815aa70b0b": {
+          "type": "column",
+          "settings": {
+            "title": "Newsletter Sign-up",
+            "text": "<p>Sign-up for the Bosch newsletter to receive handy use and care tips, our latest offers, healthy recipes, design inspiration, and more.<\/p>",
+            "link_label": "Subscribe",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15725401604153__1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca-16668548601ee1954a-0",
+        "template--15725401604153__1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca-16668548601ee1954a-1",
+        "template--15725401604153__1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca-16668548601ee1954a-2",
+        "3e94a468-a427-4bef-a1af-b070814547c7",
+        "ecf7aba2-7ad6-4905-a3d3-a4db442d052e",
+        "7d04227c-900c-445b-ad68-3462d6c7f337",
+        "d4d85d51-96f5-4c5b-8329-58b8778654b5",
+        "d107ab03-4268-4ced-90aa-b4815aa70b0b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0534abf7-c764-4221-9e2b-eb38d22fd686": {
       "type": "multicolumn",
       "blocks": {
@@ -294,15 +398,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "22d3b312-9058-44f9-986a-f2ea60d9f6a6": {
-      "type": "header-top",
-      "settings": {
-        "imageid": "shopify:\/\/shop_images\/sideimg02.webp",
-        "textid": "here",
-        "enabletext": true,
-        "text_position": "left"
-      }
     }
   },
   "order": [
@@ -310,7 +405,7 @@
     "5daf4fdf-701f-4d95-bd12-823af0014ac6",
     "rich_text",
     "multicolumn",
-    "0534abf7-c764-4221-9e2b-eb38d22fd686",
-    "22d3b312-9058-44f9-986a-f2ea60d9f6a6"
+    "1e6e6f96-3a3c-44a2-a6f9-4134f7f667ca",
+    "0534abf7-c764-4221-9e2b-eb38d22fd686"
   ]
 }
