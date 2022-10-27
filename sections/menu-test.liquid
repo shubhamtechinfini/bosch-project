@@ -1,41 +1,18 @@
-{% comment %}theme-check-disable UndefinedObject{% endcomment %}
-{{ 'section-footer.css' | asset_url | stylesheet_tag }}
-<link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'disclosure.css' | asset_url }}" media="print" onload="this.media='all'">
+{% stylesheet %}
 
-<noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-list-social.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
+{% endstylesheet %}
 
-{%- style -%}
-  .footer {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-  }
 
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .footer {
-      margin-top: {{ section.settings.margin_top }}px;
-    }
-
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
+<div class="header-top">
+    {% if section.settings.imageid %}
+<div class="logo">
+  {{ section.settings.imageid  | image_url: width: 90 | image_tag }}
+</div>
+{% endif %}
+  {% if section.settings.enabletext %}
+  <div class="header-text-tag" style="text-align:{{ section.settings.text_position }}">{{ section.settings.textid }}</div>
+  {% endif %}
+</div>
 <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
@@ -82,19 +59,12 @@
           {%- endfor -%}
         </div>
 
-{% javascript %}
-  
-{% endjavascript %}
 
 {% schema %}
-{
-  "name": "t:sections.footer.name",
-  "blocks": [
-    {
-      "type": "link_list",
-      "name": "t:sections.footer.blocks.link_list.name",
-      "settings": [
-        {
+  {
+    "name": "mnu top",
+    "settings": [
+      { 
           "type": "text",
           "id": "heading",
           "default": "Quick links",
@@ -107,205 +77,11 @@
           "label": "t:sections.footer.blocks.link_list.settings.menu.label",
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
         }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "t:sections.footer.blocks.text.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Heading",
-          "label": "t:sections.footer.blocks.text.settings.heading.label"
-        },
-        {
-          "type": "richtext",
-          "id": "subtext",
-          "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
-          "label": "t:sections.footer.blocks.text.settings.subtext.label"
-        }
-      ]
-    },
-    {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "range",
-          "id": "image_width",
-          "min": 50,
-          "max": 200,
-          "step": 5,
-          "unit": "px",
-          "label": "Image width",
-          "default": 100
-        },
-        {
-          "type": "select",
-          "id": "alignment",
-          "label": "Image alignment on large screen",
-          "options": [
-            {
-              "value": "",
-              "label": "Left"
-            },
-            {
-              "value": "center",
-              "label": "Center"
-            },
-            {
-              "value": "right",
-              "label": "Right"
-            }
-          ],
-          "default": "center"
-        }
-      ]
-    }
-  ],
-  "settings": [
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__1.content",
-      "info": "t:sections.footer.settings.header__1.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "newsletter_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.newsletter_enable.label"
-    },
-    {
-      "type": "text",
-      "id": "newsletter_heading",
-      "default": "Subscribe to our emails",
-      "label": "t:sections.footer.settings.newsletter_heading.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__2.content",
-      "info": "t:sections.footer.settings.header__2.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_social",
-      "default": false,
-      "label": "t:sections.footer.settings.show_social.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__3.content",
-      "info": "t:sections.footer.settings.header__4.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_country_selector",
-      "default": true,
-      "label": "t:sections.footer.settings.enable_country_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__5.content",
-      "info": "t:sections.footer.settings.header__6.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_language_selector",
-      "default": true,
-      "label": "t:sections.footer.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__7.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "payment_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.payment_enable.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.spacing"
-    },
-    {
-      "type": "range",
-      "id": "margin_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.footer.settings.margin_top.label",
-      "default": 0
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
-  ],
-  "default": {
-    "blocks": [
-      {
-        "type": "link_list"
-      },
-      {
-        "type": "text"
-      }
-    ]
+    ]    
   }
-}
 {% endschema %}
+
+
+
+{% javascript %}
+{% endjavascript %}
